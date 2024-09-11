@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Хост: localhost
+- Время создания: Сен 11 2024 г., 15:09
+- Версия сервера: 10.3.39-MariaDB-0+deb10u1
+- Версия PHP: 7.3.33
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="db_vgu_test4" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="category_description_2">
+                CREATE TABLE `category_description_2` (
+                  `Id` int(11) DEFAULT NULL,
+                  `Age` int(11) DEFAULT NULL,
+                  `FirstName` varchar(20) DEFAULT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'db_vgu_test4'
+    -->
+    <database name="db_vgu_test4">
+        <!-- Таблица category_description_2 -->
+    </database>
+</pma_xml_export>
